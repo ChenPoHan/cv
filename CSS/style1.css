@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #383c47;
+}
+
+.cv {
+    width: 800px;
+    background: white;
+    margin: auto;
+    /*上下 左右 auto：水平至中*/
+    box-shadow: 0 20px 10px rgba(0,0,0.4);
+    /*box-shadow: 0 20px 10px rgba(0,0,0.4),rgba(0,0,0,.7)座第二組陰影;*/
+}
+
+header,
+.main,
+footer {
+    padding: 50px 10px;
+    /*上下 左右 auto：水平至中*/
+}
+
+header {
+    background: #ddd;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.name {
+    text-transform: uppercase
+}
+
+.section-title {
+    font-weight: 300;
+    text-transform: uppercase;
+}
